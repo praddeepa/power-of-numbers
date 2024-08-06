@@ -1,0 +1,5 @@
+class Solution:
+    def power(self,N,R):
+        mod=10**9+7
+        res=pow(N,R,mod)
+        return res
